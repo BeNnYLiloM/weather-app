@@ -1,7 +1,8 @@
 import {App} from '@components/App/App';
-import {Map} from '@components/Map/Map';
 
+import 'bootstrap';
+
+import 'bootstrap/scss/bootstrap.scss';
 import './index.sass';
 
-const map = new Map(App, 'map');
-map.create();
+new App('app');

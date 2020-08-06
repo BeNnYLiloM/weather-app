@@ -1,0 +1,44 @@
+.sidebar
+  position: fixed
+  top: 0
+  right: 0
+  z-index: 99
+  height: 100vh
+  background: #fff
+  box-shadow: -6px 0 4px -4px rgba(0,0,0,.3)
+  padding: 100px 20px 40px
+  min-width: 280px
+
+  &__title
+    text-align: center
+    font-weight: 700
+    margin-bottom: 10px
+    font-size: 22px
+
+  &__form
+    position: relative
+
+    &-btn
+      position: absolute
+      top: 0
+      right: 0
+      border: none
+      outline: none
+      height: 100%
+      padding: 0
+      width: 38px
+      background: url('../../assets/imgs/search.svg') no-repeat center
+
+      &:focus,
+      &:active
+        box-shadow: none
+        outline: none
+
+  &__text
+    text-align: center
+    margin-top: 30px
+
+.nav-tabs .nav-item
+  flex: 1
+  text-align: center
+  white-space: nowrap
